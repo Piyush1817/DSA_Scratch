@@ -9,8 +9,8 @@ class Pattern2{
     }
     static void Pattern(int n){
  
-        for(int i=1;i<=n;i++){
-            for(int j=1;j<=n;j++){
+        for(int row=1;row<=n;row++){
+            for(int col=1;col<=row;col++){
                 System.out.print("* ");
             }
             System.out.println();
