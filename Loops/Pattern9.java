@@ -1,11 +1,6 @@
-//     *
-//    ***
-//   *****
-//  *******
-// *********
 import java.util.Scanner;
 
-public class Pattern8 {
+public class Pattern9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of rows: ");
@@ -15,10 +10,11 @@ public class Pattern8 {
     }
     static void Pattern(int n){
         for(int row=1;row<=n;row++){
-            for (int space=1;space<n-row+1;space++){
+            for (int space=1;space<row;space++){
                 System.out.print(" ");
             }
-            for (int star=1;star<=2*row-1;star++){
+            int numStars = 2 * (n - row) + 1;
+            for (int star=1;star<=numStars;star++){
                 System.out.print("*");
             }
         System.out.println();
