@@ -1,3 +1,9 @@
+//     *
+//     **
+//    ***
+//   ****
+//  *****
+// ******
  import java.util.Scanner;
  public class Pattern6 {
      @SuppressWarnings("ConvertToTryWithResources")
