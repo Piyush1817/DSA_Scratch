@@ -8,7 +8,7 @@
 //      *
 import java.util.Scanner;
 
-public class Pattern7 {
+public class Pattern07 {
     public static void main(String[] args) {
         Scanner sc7 = new Scanner(System.in);
         System.out.println("Enter the number of rows: ");
