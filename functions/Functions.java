@@ -11,6 +11,7 @@ public class Functions {
          sum(sc);
        
     }
+    
      static void sum(Scanner sc){
        
         System.out.println("Enter two numbers:");       

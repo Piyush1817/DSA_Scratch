@@ -1,8 +1,11 @@
+
+// Write a program to print the following pattern for n rows.   
 // * * * * * 
 // * * * * *
 // * * * * *
 // * * * * *
 // * * * * *
+
 import java.util.Scanner;
 
 class Pattern01 {
