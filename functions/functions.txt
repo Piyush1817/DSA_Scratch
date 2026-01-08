@@ -1,0 +1,5 @@
+functions  :- block of code for same things 
+syntax :- access_modifier return_type name(){
+           body
+           return statement
+}
