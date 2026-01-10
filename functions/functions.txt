@@ -3,3 +3,8 @@ syntax :- access_modifier return_type name(){
            body
            return statement
 }
+
+In java passing is done by values. There is no concept of passing by reference .
+
+
+for dat structure not for primitive data type:-passed by copy of the value of the reference.
