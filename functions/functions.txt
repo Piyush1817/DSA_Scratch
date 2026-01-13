@@ -8,3 +8,7 @@ In java passing is done by values. There is no concept of passing by reference .
 
 
 for dat structure not for primitive data type:-passed by copy of the value of the reference.
+
+scope:-
+1.one that initiallized inside the block that can be used only inside the block only
+2.and another which is initiallized outside that can be used both outside and inside (of the sub block).
