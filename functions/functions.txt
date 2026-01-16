@@ -12,3 +12,11 @@ for dat structure not for primitive data type:-passed by copy of the value of th
 scope:-
 1.one that initiallized inside the block that can be used only inside the block only
 2.and another which is initiallized outside that can be used both outside and inside (of the sub block).
+
+Shadowing:-
+Shadowing in Java occurs when a variable declared within a specific scope has 
+the same name as a variable declared in an outer scope, 
+causing the inner variable to "shadow" or hide the outer one.
+
+shadowing begins actually after initiallizing the local variable not after only declared it .
+Shadowing doesnt work for methods 
