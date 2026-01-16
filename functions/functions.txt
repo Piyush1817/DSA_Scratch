@@ -20,3 +20,7 @@ causing the inner variable to "shadow" or hide the outer one.
 
 shadowing begins actually after initiallizing the local variable not after only declared it .
 Shadowing doesnt work for methods 
+
+VarArgs :- varaible length argument 
+
+Method Overloading :- function with same name and different parameters 
