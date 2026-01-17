@@ -1,0 +1,5 @@
+class is template of the object 
+               or 
+class is a blue print that goups data and functions 
+
+object is instance of the class .
