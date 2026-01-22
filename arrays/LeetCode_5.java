@@ -13,7 +13,8 @@ public class LeetCode_5{
             nums[i]=sc.nextInt();
         }
         int output[] = smallerNumbersThanCurrent(nums);
-        System.out.println("Result array: "+ java.util.Arrays.toString(output));   
+        System.out.println("Result array: "+ java.util.Arrays.toString(output)); 
+          
         
       }
       static int[] smallerNumbersThanCurrent(int[] nums){
