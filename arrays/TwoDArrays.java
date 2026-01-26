@@ -3,6 +3,8 @@ import java.util.*;
 public class TwoDArrays {
     public static void main(String[] args ){
     Scanner sc =new Scanner(System.in);
+//declaring number of columns is not mandatory at the time of initialization but number of rows is mandatory    
+
    System.out.println("Enter number of rows: ");
    int r=sc.nextInt();  
     System.out.println("Enter number of columns: ");    
@@ -12,7 +14,8 @@ public class TwoDArrays {
 
     for(int i=0;i<r;i++){
         for(int j=0;j<c;j++){
-            matrix[i][j]=sc.nextInt();
+            // matrix[i][j]=sc.nextInt();
+            matrix[i][j]=i+j;   
         }
     }
     for(int i=0;i<r;i++){
