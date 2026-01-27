@@ -23,7 +23,7 @@ public class TwoDArrays {
             System.out.print(matrix[i][j]+" ");
         }
         System.out.println();
-
-}
+    }
+System.out.println(matrix[1]);
 }
 }
