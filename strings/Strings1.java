@@ -5,6 +5,7 @@ package strings;
                      Scanner sc = new Scanner(System.in );
                      System.out.println("Enter your name :");
                      String name = sc.nextLine();
-                     System.out.println("hello "+name+" welcome to this world");
+                     String lang = "java";
+                     System.out.println("hello "+name+" welcome to this world "+lang);
             }
            }
