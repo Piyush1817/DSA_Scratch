@@ -7,5 +7,17 @@ package strings;
                      String name = sc.nextLine();
                      String lang = "java";
                      System.out.println("hello "+name+" welcome to this world "+lang);
+
+
+                     String a ="Piyush ";
+                     System.out.println(a);//this will print piyush
+
+                     a="lakhwani";
+                        System.out.println(a);//this will print lakhwani
+
+                        //above we are not chnaging the string 
+                        // but we are declaring new or can be said that 
+                        // 'a' will point to lakhwani rather thann piyush after declaring it again .
+
             }
            }
