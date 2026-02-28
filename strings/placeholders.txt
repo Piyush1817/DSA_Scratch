@@ -1,0 +1,11 @@
+%s: String
+%d: Decimal integer (for byte, short, int, long)
+%f: Floating-point number (for float, double)
+%e: Exponential floating-point number (scientific notation)
+%c: Character (for char)
+%b: Boolean (true or false)
+%o: Octal integer (base 8)
+%x: Hexadecimal integer (base 16)
+%t: Date/Time (requires an additional character to specify the format, e.g., %tY for the year)
+%n: Platform-specific newline character
+%%: A literal percent sign (%)
