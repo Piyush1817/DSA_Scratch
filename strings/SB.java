@@ -11,5 +11,9 @@ public class SB {
          System.out.println(sb.toString());//converted string builder into string 
 
          sb.deleteCharAt(0);
+         System.out.println(sb);
+
+         sb.reverse();
+            System.out.println(sb);
     }
 }
