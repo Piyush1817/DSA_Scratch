@@ -1,4 +1,4 @@
-
+package functions;
 public class Shadowing {
    int a= 10; // instance variable    and this object depedent  
    static int x = 10; // static variable for to use in static method , this will be shadowed by local variable            
