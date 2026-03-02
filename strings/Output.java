@@ -1,5 +1,8 @@
 package strings;
+import java.net.Socket;
 import java.util.*;
+
+import arrays.Array;
 
 public class Output {
     public static void main(String[] args ){
@@ -20,7 +23,20 @@ public class Output {
         System.out.printf("Value of pi: %.2f", pi); // it will print Value of pi: 3.14 because we are formatting the output to 2 decimal places using printf method
          System.out.printf("value of pi: %.3f",Math.PI);
 
-         syetm.out.printf("hello my name is %s and i am %d years old", "John", 25); // it will print hello my name is John and i am 25 years old, we are using %s for string and %d for integer in printf method    
-    }
+         System.out.printf("hello my name is %s and i am %d years old", "John", 25); // it will print hello my name is John and i am 25 years old, we are using %s for string and %d for integer in printf method    
+              
+
+          System.out.println('a'+'b'); // outputwill be 195
+          System.out.println("a"+"b"); // output will be "ab"
+          System.out.println('a'+3);// output will be 100
+           System.out.println((char)('a'+3)); // output will be 'd'
+           System.out.println('a'+"b");// output will be "a"+"b" = "ab" because when we add a char and a string, the char will be converted to a string and then concatenated with the other string
+           
+
+           System.out.println("kunal"+new ArrayList<>()); // output will be "kunal[]" 
+           System.out.println("kunal"+new Integer(565));//output will be kunal565 
+
+           //System.out.println(new ArrayList<>()+new Integer(56)); this is will give us error because + operator is only define for primitives or any of two operand should be of string type 
+        }
     
 }
