@@ -13,6 +13,9 @@ public class Palindrome {
         }
     }
     static boolean isPlaindorme(String str){
+        if (str==null || str.length()==0){ 
+            return true;
+        }
         str= str.toLowerCase(); 
         int start = 0;
         int end = str.length() - 1;
