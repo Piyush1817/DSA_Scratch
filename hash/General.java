@@ -8,6 +8,13 @@ public class General {
         map.put("orange", 3);
         System.out.println("Value for key 'apple': " + map.get("apple"));
 
+             HashSet<Integer> set =new HashSet<>();
+        set.add(1);
+        set.add(2); 
+        set.add(3);
+        set.add(2);//it will not print because set doesn't allow duplicate values
+        System.out.println("Set: " + set);
+
    
     }
 }
