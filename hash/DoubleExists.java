@@ -1,7 +1,4 @@
 package hash;
-
-
-
 import java.util.*;
 public class DoubleExists{
     public static void main(String[] args){
