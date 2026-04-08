@@ -5,10 +5,10 @@ public class ReverseLetterSpecialChar {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the string: ");
         String str = sc.nextLine();
-        String result = ReverseLetterSpecialChar(str);
+        String result = reverseLetterSpecialChar(str);
         System.out.println("Result: " + result);
     }
-    public static String ReverseLetterSpecialChar(String str){
+    public static String reverseLetterSpecialChar(String str){
         char[] arr = str.toCharArray();
         int start = 0;
         int end = arr.length - 1;
