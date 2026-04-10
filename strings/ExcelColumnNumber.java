@@ -4,7 +4,7 @@ public class ExcelColumnNumber {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
         System.out.println("enter the column number");
-        int coulumnNumber=sc.nextInt();
+        int columnNumber=sc.nextInt();
         String result =convertToTitle(columnNumber);
         System.out.println("the column title is "+result);
         
