@@ -9,6 +9,9 @@ public class IsPerfectSqrt{
 
         Boolean result =isPerfectSqrt(num);
         System.out.println(num + " is perfect square: " + result);
+
+        Boolean result2 = newtonFormula(num);
+        System.out.println(num + " is perfect square (using Newton's method): " + result2);
     }
     public static boolean isPerfectSqrt(int num){
         if (num<0){
@@ -16,7 +19,7 @@ public class IsPerfectSqrt{
         
         }
         if(num==0 || num==1){
-            return false ;
+            return true ;
         }
         int start=1;
         int end = num;
@@ -33,4 +36,19 @@ public class IsPerfectSqrt{
         }
         return ans*ans==num;
     }
+
+    public static boolean newtonFormula(int num){
+        if (num < 0) {
+            return false; // Negative numbers cannot have real square roots
+        }
+        if (num == 0 || num == 1) {
+            return true; // Both 0 and 1 are perfect squares
+        }
+
+        long x = num;
+        while (x * x > num) {
+            x = (x + num / x) / 2; // Update x using Newton's method
+        }
+        return x * x == num; // Check if the result is a perfect square
+    }     
 }
