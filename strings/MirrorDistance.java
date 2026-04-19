@@ -8,8 +8,8 @@ public class MirrorDistance{
         int n = sc.nextInt();
         int result = mirrorDistance(n);
         System.out.println("Mirror distance of the number is :"+result);
-        int result = mirrorDistance2(n);    
-        System.out.println("Mirror distance of the number is :"+result);    
+        int result2 = mirrorDistance2(n);    
+        System.out.println("Mirror distance of the number is :"+result2 );    
 
     }
     public static int mirrorDistance(int n){
