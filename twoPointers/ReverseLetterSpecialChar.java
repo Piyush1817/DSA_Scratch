@@ -1,4 +1,4 @@
-package two_pointers;
+package twoPointers;
 import java.util.*;
 public class ReverseLetterSpecialChar {
     public static void main(String[] args){

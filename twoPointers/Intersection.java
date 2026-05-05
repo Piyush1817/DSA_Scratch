@@ -1,6 +1,6 @@
 //intersection of two linked list ,idea is travel full list then swap the list and travel again if they intersect they will meet at the intersection point otherwise they will meet at null
 
-package two_pointers;
+package twoPointers;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package two_pointers;
+package twoPointers;
 import java.util.Scanner;
 public class BuySellStocks {
     public static void main(String[] args ){
