@@ -53,3 +53,4 @@ public class SortedRoated {
         return true;
     }
 }
+//check the number of drops (arr[i] > arr[i+1]) in the array, if there are more than 1 drops then return false else return true.
