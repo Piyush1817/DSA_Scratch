@@ -2,7 +2,7 @@ package arrays;
 import java.util.*;
 public class Duplicate {
     public static void main(String[] args) {
-        Scanner sc = new scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the array: ");
         int n = sc.nextInt();
         int[] arr = new int[n];

@@ -26,9 +26,9 @@ class MinCommonValue {
             System.out.println("No common value found.");
         }
 
-        int result = minCommonValue2(arr1, arr2);
-        if(result != -1){
-            System.out.println("Minimum common value (using HashSet): " + result);
+        int res = minCommonValue2(arr1, arr2);
+        if(res != -1){
+            System.out.println("Minimum common value (using HashSet): " + res);
         } else {
             System.out.println("No common value found (using HashSet).");
         }
@@ -53,12 +53,12 @@ class MinCommonValue {
         HashSet<Integer> set = new HashSet<>();
 
         // Store all elements of nums1
-        for (int num : nums1) {
+        for (int num : arr1) {
             set.add(num);
         }
 
         // Check nums2 elements
-        for (int num : nums2) {
+        for (int num : arr2) {
 
             if (set.contains(num)) {
                 return num;
