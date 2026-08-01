@@ -1,3 +1,5 @@
+package arrays;
+
 // 1351. Count Negative Numbers in a Sorted Matrix
 // Easy
 // Topics
@@ -17,6 +19,8 @@
 
 // Input: grid = [[3,2],[1,0]]
 // Output: 0
+
+
 
 
 import java.util.Scanner;
